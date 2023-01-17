@@ -202,6 +202,7 @@ app.get("/todos", async (request, response) => {
   try {
     const todoslist = await Todo.findAll();
     return response.json(todoslist);
+
   } catch (error) {
     console.log(error);
     return response.status(422).json(error);
