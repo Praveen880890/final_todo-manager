@@ -1,10 +1,5 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
-
-<<<<<<< HEAD
-npm test
-npx lint-staged
-=======
 # npm test
 # npx lint-staged
->>>>>>> 9c96117c5236f273e0955e150b84b796f19a9bec
+
